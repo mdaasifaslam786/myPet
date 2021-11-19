@@ -1,0 +1,198 @@
+body{
+  font-family:Montserrat;
+}
+.bg-my-color{
+  background-color: #FF4C68;
+}
+.navbar{
+  padding: 3rem 12rem 3rem 6rem;
+}
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color:#E8E1D9 !important;
+  font-weight:bold;
+}
+.nav-link:hover{
+  color:white !important;
+}
+.navbar-nav{
+  margin-right:4rem;
+}
+
+.nav-link:hover, .nav-link:focus {
+  text-decoration: none;
+  color:white;
+}
+.navbar-brand{
+  font-size:2.5rem;
+  font-weight: bold;
+  color:white !important;
+}
+/* Title section */
+#title{
+  background-color:#ff4c68;
+}
+.Meet{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 4rem;
+  line-height:1.5;
+  color:white;
+  font-weight:bold;
+}
+.container-fluid{
+  padding:1rem 6rem 3rem 6rem;
+}
+.download-button{
+  margin:2rem 1rem 0 0;
+}
+.title-img{
+  width:18rem;
+  transform: rotate(25deg);
+  position:absolute;
+}
+@media (max-width:992px) {
+      #title{
+        text-align: center !important;
+      }
+      .title-img{
+        width:23rem;
+        margin:3rem 0;
+          position:relative;
+          transform: rotate(0);
+      }
+}
+/* first section */
+#features{
+  position:relative;
+}
+.sec1{
+  text-align: center;
+  padding:8rem 1rem;
+  font-family: 'Montserrat-black', sans-serif;
+  background-color:white;
+}
+.sec1-icon{
+  font-size:4rem;
+  color:#ef8172;
+  margin-bottom:1rem;
+}
+.sec1-icon:hover{
+  color:#FF4C68;
+}
+.sec1 h3{
+  font-weight:bold;
+}
+.sec1 p{
+  color:grey;
+}
+.s1-p1{
+  padding:0 3.4rem;
+}
+/* testimonials section */
+.carousel-item{
+  text-align: center;
+  background-color:#ef8172;
+  padding:6rem 10rem;
+  font-family: 'Montserrat-black', sans-serif;
+  color:white;
+}
+.head-2{
+  font-size:3.3rem;
+  line-height:1.5;
+}
+.testimonials-img{
+  border-radius: 100%;
+  width:6rem;
+  margin-right:15px;
+}
+/* press */
+#press{
+  background-color:#ef8172;
+  padding-bottom:3rem;
+  text-align:center;
+  padding:0 10rem 4rem 10rem;
+}
+.p-first{
+    text-align:center;
+    margin:5rem 4rem;
+    font-family: 'Montserrat-black', sans-serif;
+    line-height: 3;
+}
+.p-first h2{
+
+  font-size:3.5rem;
+  font-weight:bold;
+}
+.press-img{
+    width:14rem;
+    padding:0 1rem;
+}
+/* Pricing */
+.pricing-row{
+  margin:2rem 4rem;
+  text-align: center;
+  font-family: 'Montserrat-black', sans-serif;
+}
+.pricing-row h3{
+
+}
+.pricing-h3{
+  color:black;
+  font-weight:bold;
+}
+.pricing-h1{
+  font-weight:bolder;
+  font-size:3.5rem;
+}
+.pricing-a{
+  color:white;
+  background-color: black;
+}
+.pricing-a:hover{
+  color:black;
+  background-color: white;
+}
+/* Call to action */
+#cta{
+  text-align: center;
+  background-color: #FF4C68;
+  margin:5rem 0;
+  padding:5rem 10rem;
+  font-family: 'Montserrat-black', sans-serif;
+  line-k
+}
+#cta h3{
+  font-size: 4rem;
+  font-weight: bold;
+  color:white;
+}
+.d-ap{
+  background-color:#968F96;
+  color:white;
+}
+.d-ap{
+  margin-right:2rem;
+  margin-top:3rem;
+}
+.d-ap:hover{
+  background-color:black;
+}
+.d-pl{
+  margin-top:3rem;
+}
+.d-pl:hover{
+  background-color: #E2E6EA;
+}
+/* footer */
+#footer{
+  text-align: center;
+  line-height:2;
+  font-family: 'Montserrat-black', sans-serif;
+  margin-bottom:4rem;
+}
+.foot{
+  font-size: 150%;
+  padding:0 0.5rem;
+  color: black;
+}
